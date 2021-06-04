@@ -106,7 +106,7 @@ int callback(int device, Finger *data, int nFingers, double timestamp, int frame
 	if(needToClick)
 	{
 		
-		if(nFingers == 3)
+		if(nFingers == 4)
 		{
 			if(!pressed)
 			{
@@ -184,13 +184,13 @@ int callback(int device, Finger *data, int nFingers, double timestamp, int frame
 			}
 		}
 		
-		if (nFingers>3) {
+		if (nFingers>4) {
 			maybeMiddleClick = NO;
 			middleclickX = 0.0f;
 			middleclickY = 0.0f;
 		}
 		
-		if (nFingers==3) {
+		if (nFingers==4) {
 			Finger *f1 = &data[0];
 			Finger *f2 = &data[1];
 			Finger *f3 = &data[2];
