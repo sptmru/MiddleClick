@@ -239,6 +239,7 @@
 				GCC_PREFIX_HEADER = MiddleClick_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rouge41.middleClick;
 				PRODUCT_NAME = MiddleClick;
 				SDKROOT = macosx;
@@ -260,6 +261,7 @@
 				GCC_PREFIX_HEADER = MiddleClick_Prefix.pch;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rouge41.middleClick;
 				PRODUCT_NAME = MiddleClick;
 				SDKROOT = macosx;
